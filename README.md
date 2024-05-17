@@ -4,5 +4,6 @@
 ```
 module "release" {
   source  = "Ziia21/release/helm"
+  name   = "testapplication"
 }
 ```
