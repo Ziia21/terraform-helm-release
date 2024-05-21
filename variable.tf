@@ -11,8 +11,7 @@ variable namespace {
 }
 
 variable values_yaml {
-   description = "Please enter a namespace"
+  description = "Please enter a namespace"
   type = string
   default = ""
-
 }

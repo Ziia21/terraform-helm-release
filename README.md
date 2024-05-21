@@ -6,8 +6,7 @@ module "release" {
   source  = "Ziia21/release/helm"
   name   = "testapplication"
   namespace = "testapp"
-   values_yaml = <<EOF
-
-  EOF
+  values_yaml = <<EOF
+EOF
 }
 ```
